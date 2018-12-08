@@ -1,0 +1,9 @@
+#title {
+  color: #3366cc;
+  text-align: center;
+}
+
+#title:hover {
+  color: #66cc33;
+  transition-duration: 1s;
+}
