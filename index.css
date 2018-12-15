@@ -7,3 +7,14 @@
   color: #66cc33;
   transition-duration: 1s;
 }
+
+p {
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
