@@ -8,13 +8,53 @@
   transition-duration: 1s;
 }
 
+.container {
+  display: flex;
+}
+
+#cat-list {
+  flex: 1;
+}
+
+#current-cat {
+  flex: 4;
+}
+
 p {
   text-align: center;
 }
 
 img {
   display: block;
-  width: 50%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+li {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  background-color: #fcad26;
+  font-size: 16px;
+  font-weight: 300px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 25px 80px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 0 6px #efa424;
+}
+
+li:hover {
+  box-shadow: 0 4px #efa424;
+  top: 2px;
+}
+
+li:active {
+  box-shadow: none;
+  top: 6px;
 }
